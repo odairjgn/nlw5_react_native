@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigation } from '@react-navigation/core';
 import {
     SafeAreaView,
     StyleSheet,
@@ -13,7 +14,6 @@ import {
 import colors from '../styles/colors';
 import fonts from '../styles/fonts';
 import { Button } from '../components/Button';
-import { useNavigation } from '@react-navigation/core';
 
 export function UserIdentification() {
 
